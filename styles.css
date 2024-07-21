@@ -21,6 +21,7 @@ body {
     margin: 0 auto -20px;  /* Alinea la imagen centrada y añade un margen inferior */
     width: 150px;  /* Ajusta el tamaño de la imagen según sea necesario */
     height: auto;
+    
 }
 
 h1 {
@@ -33,11 +34,12 @@ h1 {
 }
 
 .option {
-    width: 120px;
+    width: 110px;
     height: auto;
     margin: 1px;
     cursor: pointer;
     transition: transform 0.2s;
+    border: 1px solid #000;
 }
 
 .option:hover {
