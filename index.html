@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Votación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/cne.png" alt="Logo" class="logo">
+        <h1>Aquí, la transparencia es tan clara como el lodo.</h1>
+        <div class="options">
+            <img src="img/maduro.jpg" alt="Opción 1" class="option" onclick="vote('option1')">
+            <img src="img/edmundo.jpg" alt="Opción 2" class="option" onclick="vote('option2')">
+            <img src="img/bufon.jpg" alt="Opción 3" class="option" onclick="vote('option3')">
+        </div>
+        
+        <div class="single-votes">
+            <h2>Lo que se Imprime</h2>
+            <p>Maduro: <span id="singleCount1">0</span> votos</p>
+            <p>Edmundo: <span id="singleCount2">0</span> votos</p>
+            <p>Bufon: <span id="singleCount3">0</span> votos</p>
+        </div>
+
+        <div class="results">
+            <h2>Lo que envían a Caracas</h2>
+            <p>Maduro: <span id="count1">0</span> votos</p>
+            <p>Edmundo: <span id="count2">0</span> votos</p>
+            <p>Bufon: <span id="count3">0</span> votos</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
